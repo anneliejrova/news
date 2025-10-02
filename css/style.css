@@ -1,1 +1,67 @@
  /* GLOBAL-, LAYOUT- OCH GRUND- STYLING */
+
+/*text*/
+.light   { font-weight: 300; }
+.regular { font-weight: 400; }
+.semibold { font-weight: 600; }
+.bold    { font-weight: 700; }
+
+/* Italic class */
+.italic  { font-style: italic; }
+
+ /*Rubriker, Links*/
+
+h1, 
+h2, 
+h3, 
+.snippet-headline, 
+a{
+  font-family: 'General Sans', sans-serif;  
+  margin: 0 0 1rem 0;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.snippet-headline{
+  font-size: 1rem;
+  color: var(--text-primary);
+  font-weight: 300;
+}
+
+a{
+  font-size: 1rem;
+  color:var(--accent-primary);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover{
+  color:var(--accent-primary-hover);
+  text-decoration: underline;
+}
+
+a:visited{
+  color:var(--accent-secondary)
+}
+
+body {
+  font-family: 'Lora', serif;
+   background-color: var(--bgcolor);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.6;
+}

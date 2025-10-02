@@ -2,7 +2,17 @@
 
 /*Lora - google fonts <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet"> */
 
-/*Local font - General Sans*/
+/*Local font - General Sans
+
+General Sans Font Weights & Styles:
+   300 - Light
+   400 - Regular
+   400 italic - Regular Italic
+   600 - SemiBold
+   600 italic - SemiBold Italic
+   700 - Bold
+*/
+
 @font-face {
   font-family: 'General Sans';
   src: url('../fonts/general-sans/GeneralSans-Light.woff2') format('woff2');

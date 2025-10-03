@@ -1,15 +1,31 @@
 /* COLORS */
 
+/*
+SEMANTIC COLOR NAMING SYSTEM
+--[prefix-][context][-hierarchy][-volume]
+
+[-volume] is how a color interacts with surrounding colors to stand out or recede.
+- loud: increases prominence / visibility against its context
+- muted: decreases prominence / blends more into its context
+-If no volume is specified, the color is used at its base prominence for the context.
+
+Note: a muted version of a loud color can still appear more prominent than a loud version of a muted color, depending on the context.
+
+*/
+
  :root {
-            --bgcolor: #241B33;
-            --bgcolor-lighter: #2A213A;
-            --surface: #2F253F;
-            --surface-hover: #382C4C;
-            --txt-primary: #F2F0EF;
-            --txt-muted: #ACA9B8;
-            --accent-primary: #4D9AE6;
-            --accent-primary-hover: #3C86D4;
-            --accent-secondary: #FFA566;
-            --accent-secondary-hover: #FF8F42;
-            --border: #3A304C;
+            --neutral-base: #261D35;                 
+            --neutral-contrast-loud: #F2F0EF;           
+            --neutral-contrast-muted: #ACA9B8;       
+            --surface-base: #2F253F;                   
+            --surface-base-loud: #382C4C;              
+            --accent-primary: #4D9AE6;         
+            --accent-primary-loud: #3C86D4;      
+            --accent-secondary: #FFA566;                  
+            --accent-secondary-loud: #FF8F42; 
+            --accent-secondary-muted:#E6894D;  
+            --border-neutral-base: #3A304C;   
+            --topbar: #d9dad5; /*img matchad*/
         }
+
+

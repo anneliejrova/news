@@ -1,0 +1,58 @@
+#hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;  
+  margin: 0;
+  padding: 0;
+}
+
+#hero .hero-bg {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+#hero .hero-content {
+  position: absolute;
+  inset: 0;            
+  z-index: 2;
+  pointer-events: none;
+  color: white;
+  padding: 1rem;
+  overflow: hidden;    
+}
+
+.hero-title h1 {
+    color: var(--neutral-base);   
+    opacity: 0.2;
+    text-align: right;
+    line-height:3rem;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    letter-spacing: 0.3rem;
+}
+
+.hero-title-xtra{
+    color: var(--neutral-base);
+    opacity: 0.7;
+    font-size: 130%;
+    letter-spacing: 0.2rem;
+    margin-right: 2%;
+}
+
+@media (max-width: 458px) {
+
+.hero-title h1 {
+letter-spacing: 0.7rem;
+ font-size: 2.8rem;
+ 
+    line-height:1.5rem;
+
+}
+.hero-title-xtra{
+  display: block;
+    letter-spacing: 0.5rem;
+    font-size: 150%;  
+}
+}

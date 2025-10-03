@@ -101,12 +101,10 @@ a:visited{
 
 
         aside {
-          background-color: blue;
             padding: 3rem 1rem 1rem 1rem;
         }
 
         .aside-cards-container {
-          background-color: blueviolet;
             display: flex;
             flex-wrap: wrap;
             gap: 1rem;
@@ -114,7 +112,6 @@ a:visited{
         }
 
         .aside-card{
-          background-color: brown;
             padding: 0.5rem;
         }
 

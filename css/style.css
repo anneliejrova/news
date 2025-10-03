@@ -88,7 +88,7 @@ a:visited{
         
         .content {
                 display: flex;
-                flex-direction: column-reverse;
+                flex-direction: column;
                 gap: 1rem;
                 justify-content: center;
             }
@@ -101,20 +101,27 @@ a:visited{
 
 
         aside {
+          background-color: blue;
             padding: 3rem 1rem 1rem 1rem;
         }
 
         .aside-cards-container {
+          background-color: blueviolet;
             display: flex;
             flex-wrap: wrap;
             gap: 1rem;
-            padding: 2rem;
             justify-content: center;
         }
 
         .aside-card{
+          background-color: brown;
             padding: 0.5rem;
-            
+        }
+
+         @media (min-width: 768px) {
+          .content {
+                flex-direction: column-reverse;
+         }
         }
 
         @media (min-width: 1000px) {

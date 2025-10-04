@@ -24,8 +24,15 @@ Note: a muted version of a loud color can still appear more prominent than a lou
             --accent-secondary: #FFA566;                  
             --accent-secondary-loud: #FF8F42; 
             --accent-secondary-muted:#E6894D;  
-            --border-neutral-base: #3A304C;   
+            --border-neutral-base: #3A304C;
+            
+            
             --topbar: #d9dad5; /*img matchad*/
+
+            
+            --logo-f:#7CB9E8;
+            --logo-t:#1F6FC0;
+            --logo-mid:#4D9AE6;
         }
 
 

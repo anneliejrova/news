@@ -28,8 +28,7 @@ h2,
 h3, 
 .snippet-headline, 
 a{
-  font-family: 'General Sans', sans-serif;  
-  margin: 0 0 1rem 0;
+  font-family: 'General Sans', sans-serif; 
 }
 
 h1 {
@@ -77,15 +76,6 @@ a:visited{
              margin: 0 auto;
         }
 
-        header {
-            width: 100%;
-            padding: 1rem;
-            box-sizing: border-box;
-            height: 100px;
-        }
-
-
-        
         .content {
                 display: flex;
                 flex-direction: column;

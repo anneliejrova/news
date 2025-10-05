@@ -1,4 +1,4 @@
- /* GLOBAL LAYOUT AND STYLING */
+/* GLOBAL LAYOUT AND STYLING */
 
  * {
     margin: 0;
@@ -16,8 +16,7 @@ html, body {
 
 body {
   font-family: 'Lora', serif;
-  background-color: var(--bgcolor);
-  color: var(--text-primary);
+  color: var(--neutral-contrast);
   line-height: 1.6;
 }
 
@@ -81,16 +80,22 @@ a:visited{
                 flex-direction: column;
                 gap: 1rem;
                 justify-content: center;
+            background-color: var(--neutral-base   );              
+
             }
 
         main {
+          display: flex;
+            flex-direction: column;
             max-width: 800px;
             margin: 0 auto;
             padding: 1rem;
         }
 
+              
 
         aside {
+          background-color: var(--surface-base);
             padding: 3rem 1rem 1rem 1rem;
         }
 
@@ -105,7 +110,7 @@ a:visited{
             padding: 0.5rem;
         }
 
-         @media (min-width: 768px) {
+         @media (min-width: 538px) {
           .content {
                 flex-direction: column-reverse;
          }
@@ -136,3 +141,6 @@ a:visited{
             box-sizing: border-box;
             height: 100px;
         }
+
+
+

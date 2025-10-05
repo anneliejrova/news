@@ -14,25 +14,32 @@ Note: a muted version of a loud color can still appear more prominent than a lou
 */
 
  :root {
-            --neutral-base: #261D35;                 
-            --neutral-contrast-loud: #F2F0EF;           
-            --neutral-contrast-muted: #ACA9B8;       
-            --surface-base: #2F253F;                   
-            --surface-base-loud: #382C4C;              
-            --accent-primary: #4D9AE6;         
-            --accent-primary-loud: #3C86D4;      
-            --accent-secondary: #FFA566;                  
-            --accent-secondary-loud: #FF8F42; 
-            --accent-secondary-muted:#E6894D;  
-            --border-neutral-base: #3A304C;
-            
-            
-            --topbar: #d9dad5; /*img matchad*/
+    --neutral-base: #FAF8F5;
+    --neutral-contrast: #1C1E1A;
+    --neutral-contrast-muted: #585C4F;
 
-            
-            --logo-f:#7CB9E8;
-            --logo-t:#1F6FC0;
-            --logo-mid:#4D9AE6;
-        }
+    --surface-base: #f5f2ee;
+    --surface-color: #1E293B;
+    --surface-color-muted: #312E81;
+    --surface-color-txt: #F8FAFC;
+  
+    --accent-primary:#4D9AE6;           
+    --accent-primary-muted: #7CB9E8;         
+    --accent-primary-loud: #1F6FC0;
+    --accent-primary-border: #04284d;   
 
+    --accent-secondary: #9477ca;                  
+    --accent-secondary-loud:#6520e6;  
+    --accent-secondary-muted: #a393c3;    
+            
+
+/*SET COLORS DO NOT CHANGE*/
+            
+    --topbar: #d9dad5; /*set to hero-bg-img*/
+            
+    --logo-f:#7CB9E8;
+    --logo-t:#1F6FC0;
+    --logo-mid:#4D9AE6;
+        
+}
 

@@ -3,3 +3,22 @@
  main article{
     padding: 20px;
  }
+
+ .newsletter{
+            background-color:var(--accent-secondary-muted);
+            margin-top: auto;
+            border-radius:15px ;
+            padding:1rem;
+
+        }
+
+        
+        form{
+            display: flex;
+        }
+
+        form input {
+            width:50vw;
+            padding:1rem;
+            margin-right:1rem;  
+        }

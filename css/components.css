@@ -1,1 +1,14 @@
- /* BUTTONS, CARDS AND GEMERAL SMALLER COMPONENTS */
+/*BUTTONS, CARDS, SMALL COMPONENTS*/
+
+button{
+    background-color: var(--accent-primary);
+    padding:1rem 2rem;
+    border: 1px solid var(accent-primary-border);
+    border-radius: 15px;
+
+}
+
+button:hover{
+    background-color: var(--accent-primary-loud);
+    color:var(--neutral-base)
+}

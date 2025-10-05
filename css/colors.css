@@ -23,6 +23,7 @@ Note: a muted version of a loud color can still appear more prominent than a lou
     --surface-color: #1E293B;
     --surface-color-loud: #312E81;
     --surface-color-txt: #F8FAFC;
+    --translucent-bg:rgba(124, 185, 232, 0.778);  
   
     --accent-primary:#4D9AE6;           
     --accent-primary-muted: #7cb9e8;         
@@ -33,7 +34,7 @@ Note: a muted version of a loud color can still appear more prominent than a lou
     --accent-secondary-loud:#6520e6;  
     --accent-secondary-muted: #a393c3;  
 
-    --hero-txt-container-bg:rgba(124, 185, 232, 0.778);    
+      
     
    
             

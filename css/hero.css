@@ -5,13 +5,13 @@
   padding: 0;
 }
 
-/* Wrapper shrinks to the image size */
+
 .hero-wrapper {
   position: relative;
-  display: inline-block; /* shrink to image */
+  display: inline-block; 
 }
 
-/* Image scales to viewport but keeps proportions */
+
 .hero-bg {
   max-width: 100vw;
   max-height: 100vh;
@@ -20,7 +20,7 @@
   display: block;
 }
 
-/* Content absolutely positioned inside wrapper */
+
 .hero-content {
   position: absolute;
   top: 0;
@@ -28,7 +28,7 @@
   width: 100%;
   height: 100%;
   z-index: 2;
-  overflow: hidden; /* ensures nothing escapes */
+  overflow: hidden; 
   pointer-events: none;
   box-sizing: border-box;
 }

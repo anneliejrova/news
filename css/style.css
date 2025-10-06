@@ -25,8 +25,8 @@ body {
 h1, 
 h2, 
 h3, 
-.snippet-headline, 
-a{
+a,
+.gs-font{
   font-family: 'General Sans', sans-serif; 
 }
 
@@ -135,12 +135,5 @@ a:visited{
             }
         }
 
-         footer {
-            width: 100%;
-            padding: 1rem;
-            box-sizing: border-box;
-            height: 100px;
-        }
-
-
+        
 

@@ -19,18 +19,24 @@ Note: a muted version of a loud color can still appear more prominent than a lou
     --neutral-contrast-muted: #585C4F;
 
     --surface-base: #f5f2ee;
+
     --surface-color: #1E293B;
-    --surface-color-muted: #312E81;
+    --surface-color-loud: #312E81;
     --surface-color-txt: #F8FAFC;
+    --translucent-bg:rgba(124, 185, 232, 0.778);  
   
     --accent-primary:#4D9AE6;           
-    --accent-primary-muted: #7CB9E8;         
+    --accent-primary-muted: #7cb9e8;         
     --accent-primary-loud: #1F6FC0;
     --accent-primary-border: #04284d;   
 
     --accent-secondary: #9477ca;                  
     --accent-secondary-loud:#6520e6;  
-    --accent-secondary-muted: #a393c3;    
+    --accent-secondary-muted: #a393c3;  
+
+      
+    
+   
             
 
 /*SET COLORS DO NOT CHANGE*/

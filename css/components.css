@@ -2,7 +2,7 @@
 
 button{
     background-color: var(--accent-primary);
-    padding:1rem 2rem;
+    padding:0.5rem 0.7rem;
     border: 1px solid var(accent-primary-border);
     border-radius: 15px;
 
@@ -12,3 +12,21 @@ button:hover{
     background-color: var(--accent-primary-loud);
     color:var(--neutral-base)
 }
+
+form{
+            display: flex;
+        }
+
+        form input {
+            background-color: var(--topbar);
+            color:var(--neutral-contrast-muted);
+            padding:1rem;
+            margin-right:1rem;  
+            border-radius: 15px;
+        }
+
+        form input:focus{
+            background-color: var( --neutral-base);
+            color:var(--neutral-contrast);
+            outline: none;
+        }

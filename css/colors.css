@@ -4,6 +4,7 @@
 SEMANTIC COLOR NAMING SYSTEM
 --[prefix-][context][-hierarchy][-volume]
 
+
 [-volume] is how a color interacts with surrounding colors to stand out or recede.
 - loud: increases prominence / visibility against its context
 - muted: decreases prominence / blends more into its context
@@ -11,6 +12,7 @@ SEMANTIC COLOR NAMING SYSTEM
 
 Note: a muted version of a loud color can still appear more prominent than a loud version of a muted color, depending on the context.
 
+neutral-base is the background color used as a neutral base on the page not necessarily gray- or brown/beige-scale and neutral-contrast is the biggest contrast to that one on the page and one usually used for text. If neutral-base is white then neutral-contrast would be black, but if neutral-base is white then neutral-contrast would be black.
 */
 
  :root {
@@ -23,16 +25,28 @@ Note: a muted version of a loud color can still appear more prominent than a lou
     --surface-color: #1E293B;
     --surface-color-loud: #312E81;
     --surface-color-txt: #F8FAFC;
-    --translucent-bg:rgba(124, 185, 232, 0.778);  
   
-    --accent-primary:#4D9AE6;           
-    --accent-primary-muted: #7cb9e8;         
-    --accent-primary-loud: #1F6FC0;
-    --accent-primary-border: #04284d;   
+    --accent-primary-loud:#7e22ce;           
+    --accent-primary: #a79acb;  
+    --accent-primary-border: #0a0113; 
+    
+    --accent-secondary-loud: #e97b33;
+--accent-secondary: #f2b67c;
+--accent-secondary-border: #8b4513;
 
-    --accent-secondary: #9477ca;                  
+--translucent-bg: rgba(242, 181, 124, 0.439);
+
+
+
+    /*
+    --translucent-bg:rgba(255, 181, 91, 0.353);  
+     --translucent-bg: rgba(126, 34, 206, 0.454);
+    --translucent-bg:rgba(124, 185, 232, 0.778); */ 
+
+   /* --accent-secondary: #9477ca;                  
     --accent-secondary-loud:#6520e6;  
     --accent-secondary-muted: #a393c3;  
+    --accent-secondary-muted:rgba(255, 181, 91, 0.491); */
 
       
     
@@ -41,11 +55,15 @@ Note: a muted version of a loud color can still appear more prominent than a lou
 
 /*SET COLORS DO NOT CHANGE*/
             
-    --topbar: #d9dad5; /*set to hero-bg-img*/
+    --topbar: #dadbd6; /*set to hero-bg-img*/
+
+    --logo-f:#a79acb;
+    --logo-t:#7e22ce;
             
-    --logo-f:#7CB9E8;
+    /*--logo-f:#7CB9E8;
     --logo-t:#1F6FC0;
-    --logo-mid:#4D9AE6;
+    --logo-mid:#4D9AE6;**/
         
 }
 
+ 

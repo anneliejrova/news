@@ -1,17 +1,49 @@
 /*BUTTONS, CARDS, SMALL COMPONENTS*/
 
-button{
-    background-color: var(--accent-primary);
+.btn{
     padding:0.5rem 0.7rem;
-    border: 1px solid var(accent-primary-border);
     border-radius: 15px;
-
 }
 
-button:hover{
-    background-color: var(--accent-primary-loud);
-    color:var(--neutral-base)
+.btn-accent-discreet{
+    background-color: transparent;
+    color: var(--accent-primary-loud);
+    border: 2px solid var(--accent-primary-loud);  
+    transition: 0.3s ease;
 }
+
+.btn-accent-discreet:hover{
+background-color: var(--accent-primary);
+    color: var(--neutral-base); 
+    border: 2px solid var(--accent-primary-loud);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+    .btn-accent-secondary{
+    background-color: var(--accent-secondary);
+    border: 2px solid var(--accent-secondary-loud);  
+    transition: 0.4s ease;
+}
+
+.btn-accent-secondary:hover{
+background-color: var(--accent-secondary-loud);
+color: var(--neutral-base);
+font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+
+
+.btn-accent{
+    background-color: var(--accent-primary);
+    color: var(--neutral-contrast);
+    border: 1px solid var(--neutral-contrast);
+    transition: 0.3s ease;
+}
+
 
 form{
             display: flex;

@@ -5,7 +5,8 @@
  }
 
  .newsletter{
-            background-color:var(--accent-secondary-muted);
+            background-color:var(--accent-secondary
+            );
             margin-top: auto;
             border-radius:15px ;
             padding:1rem;

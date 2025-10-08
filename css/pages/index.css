@@ -1,8 +1,86 @@
  /* CSS EXCLUSIVELY FOR INDEX.HTML */
  
- main article{
-    padding: 20px;
- }
+
+ .news img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+ .news{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .news-txt{
+    padding:1rem;
+  }
+
+  .text-klipp {
+  display: -webkit-box;
+  -webkit-line-clamp: 7; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+  .las-mer {
+  display: inline-block;
+  margin-top: 0.5em;
+  color: var(--brown-color);
+  text-decoration: underline;
+  padding-bottom: 3.5rem;
+}
+
+  
+
+    @media (min-width:768px){
+
+    .news-txt{
+    padding:1rem;
+  }
+
+  .style-img-right{
+    flex-direction: row-reverse;
+    padding-bottom: 4rem;
+  }
+
+  .style-img-left{
+    flex-direction: row;
+    padding-bottom: 4rem;
+    gap:2rem;
+  }
+
+    .text-klipp{
+    -webkit-line-clamp: 5;
+  }
+    
+
+.news-img {
+  flex: 0 0 400px; 
+  max-width: 600px;
+  overflow: hidden; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cropped-img {
+  flex: 0 0 400px;  
+  max-width:200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+  object-position: center; 
+}
+}
+
+
 
  .newsletter{
             background-color:var(--accent-secondary

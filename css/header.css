@@ -84,13 +84,10 @@ details[open] a:hover{
 
 }
 
-.subscribe{
-  display:block;
-  margin-left:2rem;
-}
 
 
-@media (min-width:768px) {
+
+@media (min-width:730px) {
   details{
     display: none;
   }
@@ -100,11 +97,6 @@ details[open] a:hover{
 }
 }
 
-@media (max-width:360px) {
-  .subscribe{
-  display:none;
-}
-}
 
 
 /* STATIC HEADER + LOGO*/
@@ -126,33 +118,37 @@ width: auto;
 display: block;
 }
 
-.header-static-top{
-  display:none;
+.subscribe{
+  display:none
 }
 
-@media (min-width:768px) {
+@media (min-width:350px) {
+  
+.subscribe{
+  display:block;
+  margin-left:auto;
+  margin-right: 5rem;
+}
+  
+}
+
+.header-static-top{
+  display: none;
+}
+
+@media (min-width:730px) {
+
+  .subscribe{
+  display:none
+}
   .header-static-top{
     display: flex;
-    margin-left: 2rem;
-    align-items: center;
+    margin-left:2rem;
     width:100%;
-    color: var(--accent-primary);
+  }
+
+  .nav-btns{
+    margin-left: auto;
   }
 }
-
-.header-static-top a{
-  color: var(--accent-primary-loud);
-}
-
-.nav-btns{
-  margin-left: auto;
-}
-
-.header-static-top button{
-margin:5px;
-}
-
-
-
-
 

@@ -45,6 +45,15 @@ font-weight: 600;
 }
 
 
+.btn-accent:hover{
+    background-color: var(--accent-primary-loud);
+    color: var(--neutral-base);
+    border: 1px solid var(--neutral-base);
+    transition: 0.3s ease;
+}
+
+
+
 form{
             display: flex;
         }

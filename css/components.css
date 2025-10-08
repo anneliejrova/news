@@ -14,7 +14,7 @@
 
 .btn-accent-discreet:hover{
 background-color: var(--accent-primary);
-    color: var(--neutral-base); 
+    color: var(--neutral-base-mute); 
     border: 2px solid var(--accent-primary-loud);
     cursor: pointer;
     transition: 0.3s ease;
@@ -88,4 +88,5 @@ form{
 
         form input {
             margin-bottom: 0rem;
+        }
     }

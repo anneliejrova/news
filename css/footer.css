@@ -4,28 +4,34 @@ footer{
     box-sizing: border-box;
     display:flex;
     background-color: var(--surface-color);
-    color:var(--surface-color-txt);
+    color:var(--neutral-contrast-muted);
     align-items: center;
+    justify-content: center;
 }
 
 .footer-icon{
     width:32px;
     height:32px;
-    margin-left: 3rem;
-    margin-right: 1rem;
+    margin-left: 1.5rem;
 }
 
 .footer-ft{
+    color: var(--neutral-base);
     font-weight: 600;
     line-height: 1.2rem;
+    margin-left: 1em;
 }
 
 .links{
-margin-left: 1rem;
+margin-left: auto;
 }
+
+
 .links a{
+ color: var(--neutral-base);
   font-size: 0.6rem; 
   line-height: 1.2; 
+  font-weight: 400;
 }
 
 .soc-media{
@@ -35,7 +41,7 @@ display:flex;
 }
 
 .soc-media img{
-    height:1.5rem;
+    height:1.2rem;
     width:auto;
     margin-right: 1rem;
 }
@@ -51,6 +57,9 @@ display:flex;
 }
 
 @media (min-width:768px) {
+    .links{
+        margin-left: 1em;
+    }
 .soc-media{
     display:block
 }

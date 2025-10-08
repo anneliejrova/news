@@ -87,68 +87,168 @@ details[open] a:hover{
 
 
 
-@media (min-width:730px) {
+@media (min-width:768px) {
   details{
     display: none;
   }
+ 
+ 
+}
 
-  .subscribe{
-  display:none;
-}
-}
 
 
 
 /* STATIC HEADER + LOGO*/
 
  .main-header {
-  background-color: var(--topbar);
+  background-color: var(--surface-color);
+  color:var(--neutral-contrast-muted);
   position: fixed;
   top: 0;
-  width: 100%;
- z-index: 500;
+ 
+  width: 100vw;
+  height: auto;
+  z-index: 500;
   padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo{
   display: flex;
   align-items: center;
 }
 
-.main-header-logo{
-height:1.8rem;
-width: auto;
-display: block;
+.main-header-icon{
+    width:auto;
+    height:32px;
+    margin-left: 1.5rem;
+    display: inline-block;
+    padding:0.2em;
 }
+
+@media (min-width:768px) {
+  .main-header-icon{
+        height:64px;}
+}
+
+.header-ft{
+    color: var(--neutral-base);
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-left: 1em;
+}
+
+
+
+
+
+.header-static-top{
+  display: none;
+}
+
+.header-soc-media{
+  display: none;
+}
+
+
+
+@media (min-width:768px) {
+
+  
+  .header-static-top{
+    display: flex;
+    margin-left:0.5rem;
+    width:100%;
+    align-items: center;
+  }
+
+  .header-static-top a{
+    color: var(--neutral-base);
+    font-weight:400;
+  }
+
+ 
+}
+
+  @media (min-width:768px) {
+
+    .nav-btns{
+      display: flex;    
+    margin-left: auto;
+    margin-right: 1rem;
+     align-items:center;
+    }
+
+    .nav-btns button{
+     flex: 0 0 auto;
+   }
+  }
+
+@media (min-width:768px) and (max-width:799px) {
+  .nav-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* centers buttons vertically inside nav-btns */
+    align-items: center;       /* centers horizontally */
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+}
+
+  
+
+
+
+
+@media (min-width:1100px) {
+    
+.header-soc-media{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.header-soc-media img:hover{
+    opacity: 0.5;
+}
+
+
+.header-soc-media img{
+    height:1.5rem;
+    width:auto;
+    margin-right: 1rem;
+}
+}
+
+
+
 
 .subscribe{
   display:none
 }
 
-@media (min-width:350px) {
+@media (min-width:420px) {
   
 .subscribe{
   display:block;
   margin-left:auto;
   margin-right: 5rem;
 }
+
+@media (min-width:768px) {
+   .subscribe{
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width:768px) {
+   .subscribe{
+    display: none;
+  }
+}
   
 }
 
-.header-static-top{
-  display: none;
-}
 
-@media (min-width:730px) {
 
-  .subscribe{
-  display:none
-}
-  .header-static-top{
-    display: flex;
-    margin-left:2rem;
-    width:100%;
-  }
-
-  .nav-btns{
-    margin-left: auto;
-  }
-}
 

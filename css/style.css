@@ -60,18 +60,19 @@ h3{
 
 a{
   font-size: 1rem;
-  color:var(--accent-primary);
+  color:var(--accent-primary-loud);
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 a:hover{
-  color:var(--accent-primary-hover);
+  color:var(--accent-primary-loud);
   text-decoration: underline;
 }
 
 a:visited{
-  color:var(--accent-primary)
+  color:var(--accent-primary-loud);
+  text-decoration: none;
 }
 
 /* Layout*/
@@ -103,7 +104,6 @@ a:visited{
               
 
         aside {
-          background-color: var(--surface-base);
             padding: 3rem 1rem 1rem 1rem;
         }
 
@@ -118,7 +118,11 @@ a:visited{
             padding: 0.5rem;
         }
 
-         @media (min-width: 538px) {
+        .aside-cards-container .aside-card a{
+            font-size: 0.9rem;
+        }
+
+         @media (min-width: 744px) {
           .content {
                 flex-direction: column-reverse;
          }

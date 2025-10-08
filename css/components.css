@@ -41,7 +41,7 @@ font-weight: 600;
     background-color: var(--accent-primary);
     color: var(--neutral-contrast);
     border: 1px solid var(--neutral-contrast);
-    transition: 0.3s ease;
+    transition: 0.5s ease;
 }
 
 
@@ -49,21 +49,29 @@ font-weight: 600;
     background-color: var(--accent-primary-loud);
     color: var(--neutral-base);
     border: 1px solid var(--neutral-base);
-    transition: 0.3s ease;
+    cursor: pointer;
+    transition: 0.5s ease;
 }
 
 
 
 form{
             display: flex;
+            flex-direction: column;
+            
         }
 
+       
+            
+        
         form input {
             background-color: var(--topbar);
             color:var(--neutral-contrast-muted);
-            padding:1rem;
+            padding:0.5rem;
             margin-right:1rem;  
-            border-radius: 15px;
+            border-radius: 20px;
+            margin-bottom: 1rem;
+            align-items: center; 
         }
 
         form input:focus{
@@ -71,3 +79,13 @@ form{
             color:var(--neutral-contrast);
             outline: none;
         }
+
+       
+
+    @media (min-width:395px) {
+        form{
+        flex-direction: row;}
+
+        form input {
+            margin-bottom: 0rem;
+    }

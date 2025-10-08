@@ -82,21 +82,29 @@
 
 
 
- .newsletter{
-            background-color:var(--accent-secondary
-            );
-            margin-top: auto;
-            border-radius:15px ;
-            padding:1rem;
-        }
+.newsletter{
+  background-color:var(--accent-secondary);
+  margin-top: auto;
+  border-radius:15px ;
+  padding:1rem;
+}
 
- .newsletter p{
-    margin-bottom: 1rem;
- }
+.newsletter p{
+  margin-bottom: 1rem;
+}
 
+form input{
+  width:50%
+}
 
-        
-        
-            form input{
-                width:50%
-            }
+.aside-card{
+  background-color: var(--translucent-bg-card);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.aside a{
+  color:var(--accent-primary-loud);
+  font-weight:600;
+  font-size: 0.9rem;
+}

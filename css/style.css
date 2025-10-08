@@ -60,13 +60,12 @@ h3{
 
 a{
   font-size: 1rem;
-  color:var(--accent-primary);
+  color:var(--accent-primary-loud);
   text-decoration: none;
   font-weight: 400;
 }
 
 a:hover{
-  color:var(--accent-primary-hover);
   text-decoration: underline;
 }
 
@@ -103,7 +102,6 @@ a:visited{
               
 
         aside {
-          background-color: var(--surface-base);
             padding: 3rem 1rem 1rem 1rem;
         }
 

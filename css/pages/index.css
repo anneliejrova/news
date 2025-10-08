@@ -22,13 +22,7 @@
   overflow: hidden;
 }
 
-  .las-mer {
-  display: inline-block;
-  margin-top: 0.5em;
-  color: var(--brown-color);
-  text-decoration: underline;
-  padding-bottom: 3.5rem;
-}
+
 
   
 
@@ -104,7 +98,5 @@ form input{
 }
 
 .aside a{
-  color:var(--accent-primary-loud);
-  font-weight:600;
   font-size: 0.9rem;
 }

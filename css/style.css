@@ -60,9 +60,9 @@ h3{
 
 a{
   font-size: 1rem;
-  color:var(--accent-primary-loud);
+  color:var( --accent-primary-loud);
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 a:hover{
@@ -70,7 +70,8 @@ a:hover{
 }
 
 a:visited{
-  color:var(--accent-primary)
+  color:var(--accent-primary-loud);
+  text-decoration:none;
 }
 
 /* Layout*/

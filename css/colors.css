@@ -31,26 +31,11 @@ neutral-base is the background color used as a neutral base on the page not nece
     --accent-primary-border: #0a0113; 
     
     --accent-secondary-loud: #e97b33;
---accent-secondary: #f2b67c;
---accent-secondary-border: #8b4513;
+    --accent-secondary: #f2b67c;
+    --accent-secondary-border: #8b4513;
 
---translucent-bg: rgba(242, 181, 124, 0.439);
+    --translucent-bg: rgba(242, 181, 124, 0.439);
 
-
-
-    /*
-    --translucent-bg:rgba(255, 181, 91, 0.353);  
-     --translucent-bg: rgba(126, 34, 206, 0.454);
-    --translucent-bg:rgba(124, 185, 232, 0.778); */ 
-
-   /* --accent-secondary: #9477ca;                  
-    --accent-secondary-loud:#6520e6;  
-    --accent-secondary-muted: #a393c3;  
-    --accent-secondary-muted:rgba(255, 181, 91, 0.491); */
-
-      
-    
-   
             
 
 /*SET COLORS DO NOT CHANGE*/
@@ -60,10 +45,6 @@ neutral-base is the background color used as a neutral base on the page not nece
     --logo-f:#a79acb;
     --logo-t:#7e22ce;
             
-    /*--logo-f:#7CB9E8;
-    --logo-t:#1F6FC0;
-    --logo-mid:#4D9AE6;**/
-        
 }
 
  

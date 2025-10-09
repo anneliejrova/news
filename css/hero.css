@@ -197,6 +197,17 @@ justify-content: center;
 }
 
 
+#hero-min{
+  display:none;
+}
 
-
-
+@media (max-width:357px){
+#hero-min{
+  background-color: var(--translucent-bg);
+  display:block;
+  padding:1rem;
+  }
+#hero{
+  display:none;
+}
+}

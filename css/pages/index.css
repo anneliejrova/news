@@ -1,10 +1,11 @@
  /* CSS EXCLUSIVELY FOR INDEX.HTML */
- 
 
- .news img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+
+.news img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+  object-position: center; 
 }
  .news{
     display:flex;
@@ -23,7 +24,7 @@
 }
   
 
-    @media (min-width:768px){
+@media (min-width:768px){
 
     .news-txt{
     padding:1rem;
@@ -45,7 +46,8 @@
   }
     
 
-.news-img {
+.style-img-left .news-img,
+.style-img-right .news-img {
   flex: 0 0 400px; 
   max-width: 600px;
   overflow: hidden; 
@@ -63,12 +65,7 @@
   justify-content: center;
 }
 
-.news img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;  
-  object-position: center; 
-}
+
 }
 
 

@@ -1,3 +1,9 @@
+/*Anpassad till att bilden anger storlek på div'en istället för att anpassa bild efter div. 
+Alltid största möjliga bild efter skärmstorlek.
+Horisontala skärmar begränsas av bildens bredd, 
+vertikala skärmar av bildens höjd*/
+
+
 #hero {
   display: flex;
   justify-content: center;

@@ -249,6 +249,20 @@ details[open] a:hover{
   
 }
 
+.header-min{
+  display:none;
+}
 
+@media(max-width:357px){
+.header-min{
+  display:block;
+  width:100vw;
+  height:auto;
+}
+
+.main-header{
+  display:none
+}
+}
 
 

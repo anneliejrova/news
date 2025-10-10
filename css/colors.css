@@ -22,8 +22,8 @@ neutral-base is the background color used as a neutral base on the page not nece
 
     --surface-base: #f5f2ee;
 
-    --surface-color: #1E293B;
     --surface-color-loud: #312E81;
+    --surface-color: #1E293B;
     --surface-color-txt: #F8FAFC;
   
     --accent-primary-loud:#7e22ce;           

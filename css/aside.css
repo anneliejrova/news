@@ -1,0 +1,52 @@
+aside {
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+.aside-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  }
+
+.aside-card{
+  padding: 0.5rem;
+}
+
+.aside-cards-container .aside-card a{
+ font-size: 0.9rem;
+}
+
+@media (min-width: 744px) {
+
+  .page-content {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 1000px) {
+
+ .page-content {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  aside {
+    padding: 1rem;
+    flex: 0 0 280px;
+    margin-right: auto;
+  }
+
+  .aside-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+/*
+.text-klipp {
+  display: -webkit-box;
+  -webkit-line-clamp: 7; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}*/

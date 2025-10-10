@@ -23,19 +23,19 @@ footer{
 }
 
 .links{
-margin-left: auto;
+    margin-left: auto;
 }
 
 
 .links a{
- color: var(--neutral-base);
-  font-size: 0.6rem; 
-  line-height: 1.2; 
-  font-weight: 400;
+    color: var(--neutral-base);
+    font-size: 0.6rem; 
+    line-height: 1.2; 
+    font-weight: 400;
 }
 
 .soc-media{
-display:flex;
+    display:flex;
     margin-left: auto;
     display: none;
 }
@@ -51,19 +51,22 @@ display:flex;
 }
 
 @media (min-width:466px) {
-.links a{
-  font-size: 0.8rem; 
-}
+    .links a{
+        font-size: 0.8rem; 
+    }
 }
 
 @media (min-width:768px) {
+    
     .links{
         margin-left: 1em;
     }
-.soc-media{
-    display:block
-}
+
+    .soc-media{
+        display:block
+    }
+
     .video{
-    display: block;
-}
+        display: block;
+    }
 }

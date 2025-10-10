@@ -13,7 +13,7 @@
 }
 
 .btn-accent-discreet:hover{
-background-color: var(--accent-primary);
+    background-color: var(--accent-primary);
     color: var(--neutral-base-mute); 
     border: 2px solid var(--accent-primary-loud);
     cursor: pointer;
@@ -21,16 +21,16 @@ background-color: var(--accent-primary);
 }
 
 
-    .btn-accent-secondary{
+.btn-accent-secondary{
     background-color: var(--accent-secondary);
     border: 2px solid var(--accent-secondary-loud);  
     transition: 0.4s ease;
 }
 
 .btn-accent-secondary:hover{
-background-color: var(--accent-secondary-loud);
-color: var(--neutral-base);
-font-weight: 600;
+    background-color: var(--accent-secondary-loud);
+    color: var(--neutral-base);
+    font-weight: 600;
     cursor: pointer;
     transition: 0.4s ease;
 }
@@ -56,37 +56,36 @@ font-weight: 600;
 
 
 form{
-            display: flex;
-            flex-direction: column;
-            
-        }
+    display: flex;
+    flex-direction: column;
+    }
 
        
             
         
-        form input {
-            background-color: var(--topbar);
-            color:var(--neutral-contrast-muted);
-            padding:0.5rem;
-            margin-right:1rem;  
-            border-radius: 20px;
-            margin-bottom: 1rem;
-            align-items: center; 
-        }
+form input {
+    background-color: var(--topbar);
+    color:var(--neutral-contrast-muted);
+    padding:0.5rem;
+    margin-right:1rem;  
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    align-items: center; 
+}
 
-        form input:focus{
-            background-color: var( --neutral-base);
-            color:var(--neutral-contrast);
-            outline: none;
-        }
+form input:focus{
+    background-color: var( --neutral-base);
+    color:var(--neutral-contrast);
+    outline: none;
+}
 
        
 
-    @media (min-width:395px) {
-        form{
+@media (min-width:395px) {
+    form{
         flex-direction: row;}
 
-        form input {
-            margin-bottom: 0rem;
-        }
+    form input {
+    margin-bottom: 0rem;
     }
+}

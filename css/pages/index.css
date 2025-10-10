@@ -17,10 +17,10 @@
   }
 
   .text-klipp {
-  display: -webkit-box;
-  -webkit-line-clamp: 7; 
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7; 
+   -webkit-box-orient: vertical;
+    overflow: hidden;
 }
   
 
@@ -64,32 +64,40 @@
   align-items: center;
   justify-content: center;
 }
-
-
 }
 
 
 
  .newsletter{
-            background-color:var(--accent-secondary
-            );
-            margin-top: auto;
-            border-radius:15px ;
-            padding:1rem;
-        }
+  background-color:var(--accent-secondary);
+  margin-top: auto;
+  border-radius:15px ;
+  padding:1rem;
+}
 
  .newsletter p{
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
  }
 
 
        
         
-            form input{
-                width:70%;
-                height:auto;
-            }
+form input{
+  width:70%;
+  height:auto;
+}
 
             
+@media(max-width:310px){
 
-          
+main img{
+  display:none;
+}
+
+aside{
+  display:none;
+}
+footer{
+  display:none;
+}
+}

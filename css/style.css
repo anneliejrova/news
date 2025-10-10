@@ -1,11 +1,12 @@
-/* GLOBAL LAYOUT AND STYLING */
+/*OBS ALL HERO RELATES SIZING IS SET IN HERO ALONE*/
 
+
+/* GLOBAL LAYOUT AND STYLING */
  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 html, body {
     margin: 0;
@@ -20,13 +21,25 @@ body {
   line-height: 1.6;
 }
 
- /*Text*/
+
+
+/*Font classes*/
+
+.font-lora{
+  font-family: 'Lora', serif;
+}
+.font-gs{
+  font-family: 'General Sans', sans-serif;
+}
+
+
+
+ /*Text Format*/
 
 h1, 
 h2, 
 h3, 
-a,
-.gs-font{
+a{
   font-family: 'General Sans', sans-serif; 
 }
 
@@ -34,17 +47,6 @@ a,
   text-decoration: underline;
 }
 
-h1 {
-  font-size: 2.2rem;
-  font-weight: 600;
-}
-
-@media (min-width: 767px) {
-h1 {
-    margin-top: 0.2rem;
-    font-size: 3.1rem;
-}
-}
 
 h2 {
   font-size: 2rem;
@@ -79,77 +81,36 @@ a:visited{
   text-decoration: none;
 }
 
+
+
 /* Layout*/
+
  .wrapper {
-            width: 100%;
-            padding: 0;
-            box-sizing: border-box;
-             margin: 0 auto;
-             position: relative;
-        }
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  }
 
-        .content {
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-                justify-content: center;
-            background-color: var(--neutral-base   );  
+.page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  background-color: var(--neutral-base   );  
 
-            }
+}
 
-        main {
-          display: flex;
-            flex-direction: column;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 1rem;
-        }
+  main {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  }
+            
 
-              
-
-        aside {
-            padding: 3rem 1rem 1rem 1rem;
-        }
-
-        .aside-cards-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            justify-content: center;
-        }
-
-        .aside-card{
-            padding: 0.5rem;
-        }
-
-        .aside-cards-container .aside-card a{
-            font-size: 0.9rem;
-        }
-
-         @media (min-width: 744px) {
-          .content {
-                flex-direction: column-reverse;
-         }
-        }
-
-        @media (min-width: 1000px) {
-            .content {
-                flex-direction: row;
-                justify-content: center;
-            }
-
-            aside {
-                padding: 1rem;
-                flex: 0 0 280px;
-                margin-right: auto;
-            }
-
-            .aside-container {
-                flex-direction: column;
-                flex-wrap: nowrap;
-
-            }
-        }
 
         
 
